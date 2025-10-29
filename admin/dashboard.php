@@ -16,12 +16,12 @@
         <a href="products.php" class="nav-link">Products</a>
         <a href="orders.php" class="nav-link">Orders</a>
         <a href="customers.php" class="nav-link">Customers</a>
-        <a href="#" class="nav-link">Logout</a>
+        <a href="../logout.php" class="nav-link">Logout</a>
     </div>
     <div class="main">
         <div class="header">
             <h1>Dashboard</h1>
-            <a href="#" class="logout-btn">Logout</a>
+            <a href="../logout.php" class="logout-btn">Logout</a>
         </div>
         <div class="content">
             <div class="cards">
