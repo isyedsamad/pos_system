@@ -20,7 +20,7 @@ if (isset($_POST['login'])) {
 <html>
 
 <head>
-    <title>POS System - Admin Login</title>
+    <title>POS System - RDBMS Project</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
