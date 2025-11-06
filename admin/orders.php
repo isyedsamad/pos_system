@@ -10,7 +10,7 @@
 
 <body>
     <div class="sidebar">
-        <h2>POS Admin</h2>
+        <h2>MyPOS Admin</h2>
         <a href="dashboard.php" class="nav-link">Dashboard</a>
         <a href="products.php" class="nav-link">Products</a>
         <a href="orders.php" class="nav-link">Orders</a>

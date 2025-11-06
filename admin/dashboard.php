@@ -11,7 +11,7 @@
 
 <body>
     <div class="sidebar">
-        <h2>POS Admin</h2>
+        <h2>MyPOS Admin</h2>
         <a href="dashboard.php" class="nav-link">Dashboard</a>
         <a href="products.php" class="nav-link">Products</a>
         <a href="orders.php" class="nav-link">Orders</a>
@@ -56,7 +56,7 @@
                     <h3>Low Stock</h3>
                     <p>
                         <?php
-                        $result = $conn->query("SELECT COUNT(*) AS low FROM products WHERE stock < 3");
+                        $result = $conn->query("SELECT COUNT(*) AS low FROM products WHERE stock < 6");
                         echo $result->fetch_assoc()['low'] ?? 0;
                         ?>
                     </p>
