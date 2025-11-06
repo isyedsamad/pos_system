@@ -74,7 +74,7 @@
                         </select>
 
                         <label>Quantity:</label><br>
-                        <input type="number" name="quantity[]" min="1" value="1" required style="width:100%;padding:10px;margin:10px 0;border:1px solid #ccc;border-radius:6px;"><br>
+                        <input type="number" name="quantity[]" id="quan" min="1" value="1" required style="width:100%;padding:10px;margin:10px 0;border:1px solid #ccc;border-radius:6px;"><br>
 
                         <label>Price (₹):</label><br>
                         <input type="number" step="0.01" name="price[]" readonly required style="width:100%;padding:10px;margin:10px 0;border:1px solid #ccc;border-radius:6px;"><br>
@@ -91,7 +91,10 @@
                 const orderItems = document.getElementById('orderItems');
                 const firstItem = orderItems.children[0];
                 const clone = firstItem.cloneNode(true);
-                clone.querySelectorAll('input').forEach(input => input.value = '');
+                clone.querySelectorAll('input').forEach(input => {
+                    if (input.id != 'quan') input.value = ''
+                    else input.value = 1;
+                });
                 orderItems.appendChild(clone);
             }
             document.addEventListener('change', function(e) {
