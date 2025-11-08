@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyPOS – Smart Point of Sale System</title>
+    <title>MyPOS – Smart Point of Sale System - RDBMS</title>
     <style>
         :root {
             --primary: #3B82F6;
